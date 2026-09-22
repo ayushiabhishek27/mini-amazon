@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🛒 Mini Amazon (Full-Stack E-Commerce Platform)
 
-## Available Scripts
+<p align="center"><b>A feature-rich e-commerce web application inspired by Amazon</b></p>
 
-In the project directory, you can run:
+<!-- Tech Stack Badges -->
+<p align="center">
+  <img src="https://img.shields.io/badge/JAVA-17-%23ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/SPRING%20BOOT-3.2-%236DB33F?style=for-the-badge&logo=springboot&logoColor=white" />
+  <img src="https://img.shields.io/badge/REACT-JS-%2361DAFB?style=for-the-badge&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/TYPESCRIPT-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/MYSQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+</p>
 
-### `npm start`
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 💡 About The Project
 
-### `npm test`
+**Mini Amazon** is a modern, responsive full-stack e-commerce web application designed to provide a seamless online shopping experience. It features secure JWT authentication, dynamic product catalog management, a fully functional shopping cart, and order tracking.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## ✨ Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* **🔐 Authentication & Security**: Secure User Registration and Login powered by Spring Security and JSON Web Tokens (JWT).
+* **🛍️ Product Management**: Browse products across categories with detailed views and stock tracking.
+* **🛒 Cart & Checkout**: Dynamically add items to your cart, update quantities, and place orders smoothly.
+* **📦 Order History**: Track past orders and delivery statuses.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Quick Start
 
-### `npm run eject`
+### 1. Database Setup
+* Create a MySQL database named `miniamazon`.
+* Run the provided `schema.sql` script to set up tables and initial seed data.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 2. Backend Setup (`Spring Boot`)
+1. Go to the backend folder and update your database credentials in `src/main/resources/application.properties`.
+2. Run the application (starts on port `8080`).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 3. Frontend Setup (`React`)
+```bash
+cd frontend
+npm install
+npm start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Access the app in your browser at http://localhost:3000.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+👨‍💻 Authors
+Anjali Kumari Yadav 
+Mayank Bhushan
+Ayushi Abhishek
